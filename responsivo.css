@@ -1,0 +1,36 @@
+@media (max-width:660px) {
+    .container {
+        height: 100%;
+    }
+
+    .cartao {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        height: 700px;        
+    }
+
+    .cartao, img {
+        display: flex;
+        min-width: 100px;
+        min-height: 100px;
+        object-fit: cover;
+    }
+
+    .cartao img {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .cartao .coluna h1 {
+        max-width: 1fr;        
+    }
+
+    .cartao .coluna .botao {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cartao .coluna a {
+        width: 300px;
+    }
+}

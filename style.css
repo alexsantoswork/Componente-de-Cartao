@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+}
+
+.cartao {
+    display: flex;
+    border-radius: 15px 10px 10px 15px;
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 450px;
+}
+
+.cartao img {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.cartao .coluna h2 {
+    font-size: 13px;
+    padding: 30px 30px 0px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.cartao .coluna h1 {
+    font-size: 33px;
+    padding: 20px 30px 0px;
+    font-family: "Fraunces", serif;
+    line-height: 35px;
+}
+
+.cartao .coluna .paragrafo {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px 30px;
+    color: hsl(228, 12%, 48%);
+    line-height: 25px;
+}
+
+.preco {
+    display: flex;
+}
+
+.cartao .coluna .preco strong {
+    color: hsl(158, 36%, 37%);
+    padding: 0px 30px;
+    font-size: 30px;
+    font-family: "Fraunces", serif;
+}
+
+.cartao .coluna .preco .de {
+    display: flex;
+    align-items: center;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.cartao .coluna a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #1a4031ff;
+    margin: 20px 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: grab;
+    color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+    border: solid 0.1em hsl(227, 11%, 24%);
+}
+
+.cartao .coluna .fa-shopping-cart {
+    display: flex;
+    margin-right: 10px;
+    font-size: 14px;
+}
